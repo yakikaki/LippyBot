@@ -7,7 +7,8 @@
   "dependencies": {
     "discord.js": "^14.6.0",
     "dotenv": "^16.0.3",
-    "wokcommands": "^2.0.0"
+    "path": "^0.12.7",
+    "wokcommands": "github:AlexzanderFlores/WOKCommands-v2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

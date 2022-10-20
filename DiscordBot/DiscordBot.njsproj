@@ -31,14 +31,20 @@
     <Content Include=".gitignore">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="utils\.env">
+    <Content Include="utils\config.json">
       <SubType>Code</SubType>
     </Content>
     <Content Include="main.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="validations\no-callback.js">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="commands\" />
+    <Folder Include="events\" />
+    <Folder Include="validations\" />
     <Folder Include="utils\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
